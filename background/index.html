@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./bw.jpg" type="image/jpg">
+    <title>Light-Dark Mode</title>
+</head>
+<div>
+    <h1 style="font-family: Lucida Calligraphy; font-size: 60px; color: rgb(222, 130, 146); text-align: center;"> LIGHT-DARK MODE CHANGER</h1>
+    <div style="text-align: center;">
+    <button onclick="mode_changer()" style="background-color: rgb(222, 130, 146) ;font-family: Lucida Calligraphy; border-radius: 20px; border: 2px black solid;"> Change </button>
+    </div>
+    
+    <script>
+        function mode_changer()
+        {
+            if(document.body.style.backgroundColor=="white")
+            {
+                document.body.style.backgroundColor = "rgb(45, 45, 43)";
+            }
+            else
+            {
+                document.body.style.backgroundColor = "white";
+            }
+            
+        }
+    </script>
+</body>
+</html>
